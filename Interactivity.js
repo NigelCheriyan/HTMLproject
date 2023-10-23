@@ -1,4 +1,5 @@
 function addItem(e){
-    document.getElementById("noItem").innerHTML = "Do Laundry"
+    var userInput = document.getElementById("userInput").value;
+    document.getElementById("noItem").innerHTML = userInput
 
 }
